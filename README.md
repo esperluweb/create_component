@@ -16,7 +16,11 @@ Le script est prévu pour poser des questions : le nom du composant, et son empl
 1. Mettre le script à la racine de ton projet React, c'est tout !
 
 ## Utilisation
-Tu ouvres un terminal au niveau de ton projet React, et tu lances la commande "bash create_component.sh". La suite, tout se fait en lisant le terminal 😀
+Tu ouvres un terminal au niveau de ton projet React, et tu lances la commande 
+
+> bash create_component.sh
+
+La suite, tout se fait en lisant le terminal 😀
 
 ## Contributeurs
 - Grégoire Boisseau, EsperluWeb
