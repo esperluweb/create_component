@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Demande à l'utilisateur de saisir un nom pour le dossier
 echo "Entrez le nom du composant à créer : "
