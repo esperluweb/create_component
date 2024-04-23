@@ -30,6 +30,13 @@ esac
 # Chemin complet du dossier à créer
 folder_path="$base_path/$folder_name"
 
+# Vérifier l'existence du répertoire cible
+if test -d ${folder_path}; then
+  echo "Le répertoire existe déjà."
+  echo "Aucun fichier n'a été créé."
+  exit 1
+fi
+
 # Crée le dossier avec le nom saisi par l'utilisateur dans le chemin spécifié
 mkdir -p "$folder_path"
 
